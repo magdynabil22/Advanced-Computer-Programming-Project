@@ -1,0 +1,22 @@
+@startuml
+class Block {
+    -- Attributes --
+    - name: String
+    - SID: int
+    - position: double[]
+    - Zorder: int
+    -- Contructors --
+    + Block()
+    + Block(String name, int SID , double[] position, int Zorder)
+    -- Public methods --
+    + getSID() : int
+    + getZorder(): int
+    + getPosition(): double[]
+    + getName(): String
+    + setSID(): void
+    + setZorder(): void
+    + setName(): void
+    + setPosition(): void
++ print(): void
+}
+@enduml
